@@ -1,0 +1,29 @@
+.shuffle-filter-item {
+    background: transparent;
+    border: 1px dotted #16994a;
+}
+
+.shuffle-filter-item.active {
+    background: #16994a !important;
+    box-shadow: none !important;
+}
+
+.shuffle-filter-item:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.shuffle-filter-item:hover {
+    background: #16994a;
+    color: #fff;
+}
+
+.favorite {
+    font-size: 22px;
+    color: #949494 !important;
+}
+
+.favorite:focus {
+    outline: none;
+    box-shadow: none;
+}
